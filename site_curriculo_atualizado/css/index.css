@@ -21,6 +21,7 @@ body {
 .link-menu:hover {
     color: #941405 !important;
     font-size: 17px;
+    text-decoration: unset !important;
 }
 
 .texto-menu {
@@ -265,7 +266,7 @@ body {
 
 
     .titulo-sobre {
-        font-size: 2em;
+        font-size: 1.94em;
     }
 
     .icone-redes-sociais {
