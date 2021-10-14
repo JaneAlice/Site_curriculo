@@ -1,3 +1,6 @@
+body {
+    font-family: 'Francois One', sans-serif;
+}
 
 .menu-lateral {
     background-color: #fa796b;
@@ -39,13 +42,25 @@
 
 .sobre {
     padding-top: 170px;
+    padding-left: 20px;
+}
+
+.educacao {
+    padding: 120px 200px 100px 20px;
+    font-family: 'Castoro', serif;
 }
 
 .titulo-sobre {
     font-size: 3.2em;
     font-weight: bold;
-    font-family: 'Francois One', sans-serif;
     color: #4d4d4d;
+}
+
+.titulo-1 {
+    font-size: 2.7em;
+    color: #404040;
+    font-weight: bold;
+    font-family: 'Francois One', sans-serif;
 }
 
 .cor-rosa {
@@ -55,7 +70,6 @@
 .endereco {
     font-size: 1.2em;
     color:#404040 !important;
-    font-family: 'Francois One', sans-serif;
 }
 
 .link-endereco {
@@ -94,7 +108,7 @@
 }
 
 .texto-principal{
-    font-size: 0.9em;
+    font-size: 0.82em;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -111,9 +125,31 @@
 }
 
 .menu-mobile {
+    z-index: 11;
     position: absolute;
-    top: 0;
+    top: -60px;
     left: 0;
+}
+
+.menu-fixed {
+    position: fixed;
+    z-index: 10;
+    text-align: right;
+}
+
+.menu-fixed {
+    position: fixed;
+    z-index: 10;
+    text-align: right;
+}
+
+.menu-fixed-animado {
+    position: fixed;
+    z-index: 10;
+    text-align: right;
+    color: white;
+    background-color: #fd988d;
+    box-shadow: 0px 4px 35px 0px rgb(70 86 117 / 15%) !important; 
 }
 
 .div-texto-menu-mobile {
@@ -145,17 +181,41 @@
 }
 
 .fa-bars {
-    color: #fa796b;
+    color: #4d4d4d;
     font-size: 1.3em;
     margin: 20px;
 }
 
 .header {
     display: block;
+    height: 60px;
 }
 
 .menu-mobile-animado {
     margin-left: -230px;
+}
+
+.titulo-2 {
+    color: #4d4d4d;
+    font-size: 1.5em !important;
+    margin-bottom: 10px;
+}
+
+.link-escola {
+    color: #4d4d4d !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-escola:hover {
+    color: #941405 !important;
+}
+
+.data-educacao {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 0.9em;
 }
 
 @media (max-width: 330px) {
@@ -176,9 +236,6 @@
         font-size: 0.85em;
     }
 
-    .texto-principal {
-        font-size: 0.8em;
-    }
 
     .titulo-sobre {
         font-size: 2em;
@@ -187,7 +244,7 @@
     .icone-redes-sociais {
         width: 40px;
         height: 40px;
-        padding-top: 11px;
+        padding-top: 9px;
         font-size: 1em;
     }
 
@@ -210,6 +267,22 @@
 
     .div-menu {
         padding-top: 40px;
+    }
+
+    .titulo-1 {
+        font-size: 2.2em;
+    }
+
+    .titulo-2 {
+        font-size: 1.1em !important;
+    }
+
+    .educacao {
+        padding: 60px 15px 40px 20px;
+    }
+
+    .data-educacao {
+        display: none;
     }
 }
 
@@ -231,9 +304,6 @@
         font-size: 0.93em;
     }
 
-    .texto-principal {
-        font-size: 0.83em;
-    }
 
     .titulo-sobre {
         font-size: 2.19em;
@@ -242,7 +312,7 @@
     .icone-redes-sociais {
         width: 40px;
         height: 40px;
-        padding-top: 11px;
+        padding-top: 9px;
         font-size: 1em;
     }
 
@@ -266,6 +336,22 @@
     .div-menu {
         padding-top: 40px;
     }
+
+    .titulo-1 {
+        font-size: 2.2em;
+    }
+
+    .titulo-2 {
+        font-size: 1.1em !important;
+    }
+
+    .educacao {
+        padding: 60px 15px 40px 20px;
+    }
+
+    .data-educacao {
+        display: none;
+    }
 }
 
 @media (max-width: 575px) and (min-width:  426px) {
@@ -286,9 +372,6 @@
         font-size: 0.95em;
     }
 
-    .texto-principal {
-        font-size: 0.83em;
-    }
 
     .titulo-sobre {
         font-size: 2.5em;
@@ -297,7 +380,7 @@
     .icone-redes-sociais {
         width: 45px;
         height: 45px;
-        padding-top: 11px;
+        padding-top: 9px;
         margin-top: 20px;
     }
 
@@ -321,6 +404,22 @@
     .div-menu {
         padding-top: 40px;
     }
+
+    .titulo-1 {
+        font-size: 2.2em;
+    }
+
+    .titulo-2 {
+        font-size: 1.1em !important;
+    }
+
+    .educacao {
+        padding: 70px 15px 50px 20px;
+    }
+
+    .data-educacao {
+        font-size: 0.8em;
+    }
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
@@ -341,9 +440,6 @@
         font-size: 0.95em;
     }
 
-    .texto-principal {
-        font-size: 0.83em;
-    }
 
     .titulo-sobre {
         font-size: 3em;
@@ -368,6 +464,18 @@
 
     .div-menu {
         padding-top: 40px;
+    }
+
+    .titulo-1 {
+        font-size: 2.4em;
+    }
+
+    .titulo-2 {
+        font-size: 1.2em !important;
+    }
+
+    .educacao {
+        padding: 70px 80px 50px 20px;
     }
 }
 
@@ -398,12 +506,12 @@
         font-size: 0.95em;
     }
 
-    .texto-principal {
-        font-size: 0.84em;
-    }
-
     .header {
         display: none;
+    }
+
+    .educacao {
+        padding: 120px 38px 100px 20px;
     }
 }
 
@@ -433,6 +541,10 @@
     .header {
         display: none;
     }
+
+    .educacao {
+        padding: 120px 128px 100px 20px;
+    }
 }
 
 @media (min-width: 1201px) {
@@ -447,5 +559,12 @@
 
     .header {
         display: none;
+    }
+    .texto-principal{
+        font-size: 1.1em;
+    }
+
+    .educacao {
+        padding: 120px 200px 100px 20px;
     }
 }

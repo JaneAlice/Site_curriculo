@@ -52,3 +52,13 @@ function fecharMenu(){
 }
 
 // Scroll do menu
+
+$(function() {
+	$(window).on("scroll", function() {
+		if($(window).scrollTop() > 40) {
+			$(".menu-fixed").addClass("menu-fixed-animado");
+		}else{
+			$(".menu-fixed").removeClass("menu-fixed-animado");
+		}
+	})
+});
