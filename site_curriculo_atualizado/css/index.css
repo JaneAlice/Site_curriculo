@@ -45,11 +45,6 @@ body {
     padding-left: 20px;
 }
 
-.educacao {
-    padding: 120px 200px 100px 20px;
-    font-family: 'Castoro', serif;
-}
-
 .titulo-sobre {
     font-size: 3.2em;
     font-weight: bold;
@@ -94,7 +89,7 @@ body {
     cursor: pointer;
     text-align: center;
     font-size: 1.2em;
-    padding-top: 14px;
+    padding-top: 12px;
     margin-right: 25px;
     margin-top: 15px;
 }
@@ -196,8 +191,9 @@ body {
 
 .titulo-2 {
     color: #4d4d4d;
-    font-size: 1.5em !important;
+    font-size: 1.1em !important;
     margin-bottom: 10px;
+    font-family: 'Castoro', serif;
 }
 
 .link-escola {
@@ -219,6 +215,33 @@ body {
 
 .hobbie {
     padding: 150px 150px 100px 20px;
+}
+
+.icones-programaçao {
+    font-size: 3.4em;
+    color: #fa796b;
+}
+
+.icones-programaçao:hover {
+    color: #941405;
+    font-size: 3.5em;
+}
+
+.texto-aptidoes {
+    position: relative;
+    margin-bottom: 5px;
+    padding-left: 35px;
+}
+
+.icones-check {
+    color: #fa796b;
+    font-size: 1.2em;
+    position: absolute;
+    left: 0px;
+}
+
+.habilidades {
+    padding: 40px 20px 30px 20px;
 }
 
 @media (max-width: 330px) {
@@ -276,12 +299,8 @@ body {
         font-size: 2.2em;
     }
 
-    .titulo-2 {
-        font-size: 1.1em !important;
-    }
-
     .educacao {
-        padding: 60px 15px 40px 20px;
+        padding: 60px 15px 60px 20px;
     }
 
     .data-educacao {
@@ -290,6 +309,10 @@ body {
 
     .hobbie {
         padding: 50px 20px 20px 20px;
+    }
+
+    .icones-programaçao {
+        font-size: 3em;
     }
 }
 
@@ -348,12 +371,8 @@ body {
         font-size: 2.2em;
     }
 
-    .titulo-2 {
-        font-size: 1.1em !important;
-    }
-
     .educacao {
-        padding: 60px 15px 40px 20px;
+        padding: 60px 15px 60px 20px;
     }
 
     .data-educacao {
@@ -362,6 +381,10 @@ body {
 
     .hobbie {
         padding: 50px 20px 30px 20px;
+    }
+
+    .icones-programaçao {
+        font-size: 3em;
     }
 }
 
@@ -420,12 +443,8 @@ body {
         font-size: 2.2em;
     }
 
-    .titulo-2 {
-        font-size: 1.1em !important;
-    }
-
     .educacao {
-        padding: 70px 15px 50px 20px;
+        padding: 70px 15px 70px 20px;
     }
 
     .data-educacao {
@@ -434,6 +453,10 @@ body {
 
     .hobbie {
         padding: 80px 15px 60px 20px;
+    }
+
+    .icones-programaçao {
+        font-size: 3em;
     }
 }
 
@@ -485,16 +508,16 @@ body {
         font-size: 2.4em;
     }
 
-    .titulo-2 {
-        font-size: 1.2em !important;
-    }
-
     .educacao {
-        padding: 70px 80px 50px 20px;
+        padding: 70px 80px 70px 20px;
     }
 
     .hobbie {
         padding: 110px 50px 70px 20px;
+    }
+
+    .habilidades {
+        padding: 50px 20px 30px 20px;
     }
 }
 
@@ -530,11 +553,15 @@ body {
     }
 
     .educacao {
-        padding: 120px 38px 100px 20px;
+        padding: 120px 38px 110px 20px;
     }
 
     .hobbie {
         padding: 110px 50px 80px 20px;
+    }
+    
+    .habilidades {
+        padding: 60px 20px 40px 20px;
     }
 }
 
@@ -566,11 +593,23 @@ body {
     }
 
     .educacao {
-        padding: 120px 128px 100px 20px;
+        padding: 120px 128px 110px 20px;
     }
 
     .hobbie {
         padding: 120px 120px 90px 20px;
+    }
+
+    .habilidades {
+        padding: 60px 20px 40px 20px;
+    }
+
+    .icones-programaçao {
+        margin: 12px 0px 90px 0px;
+    }
+
+    .titulo-2 {
+        font-size: 1.4em !important;
     }
 }
 
@@ -592,10 +631,18 @@ body {
     }
 
     .educacao {
-        padding: 100px 200px 80px 20px;
+        padding: 100px 200px 100px 20px;
     }
 
     .hobbie {
         padding: 150px 150px 100px 20px;
+    }
+
+    .habilidades {
+        padding: 100px 20px 70px 20px;
+    }
+
+    .titulo-2 {
+        font-size: 1.6em !important;
     }
 }
