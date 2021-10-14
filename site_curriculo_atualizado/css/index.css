@@ -41,7 +41,7 @@ body {
 }
 
 .sobre {
-    padding-top: 170px;
+    padding-top: 130px;
     padding-left: 20px;
 }
 
@@ -84,7 +84,7 @@ body {
 .redes-sociais {
     display: flex;
     flex-direction: row;
-    margin-bottom: 103px;
+    margin-bottom: 80px;
 }
 .icone-redes-sociais {
     width: 50px;
@@ -99,7 +99,6 @@ body {
     margin-top: 15px;
 }
 .icone-redes-sociais:hover {
-    border: 15px solid #941405 !important;
     background-color: #941405 !important;
 }
 .link-rede-social {
@@ -218,6 +217,10 @@ body {
     font-size: 0.9em;
 }
 
+.hobbie {
+    padding: 150px 150px 100px 20px;
+}
+
 @media (max-width: 330px) {
     .menu-lateral {
         display: none !important;
@@ -283,6 +286,10 @@ body {
 
     .data-educacao {
         display: none;
+    }
+
+    .hobbie {
+        padding: 50px 20px 20px 20px;
     }
 }
 
@@ -352,6 +359,10 @@ body {
     .data-educacao {
         display: none;
     }
+
+    .hobbie {
+        padding: 50px 20px 30px 20px;
+    }
 }
 
 @media (max-width: 575px) and (min-width:  426px) {
@@ -420,6 +431,10 @@ body {
     .data-educacao {
         font-size: 0.8em;
     }
+
+    .hobbie {
+        padding: 80px 15px 60px 20px;
+    }
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
@@ -477,6 +492,10 @@ body {
     .educacao {
         padding: 70px 80px 50px 20px;
     }
+
+    .hobbie {
+        padding: 110px 50px 70px 20px;
+    }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
@@ -513,6 +532,10 @@ body {
     .educacao {
         padding: 120px 38px 100px 20px;
     }
+
+    .hobbie {
+        padding: 110px 50px 80px 20px;
+    }
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
@@ -545,16 +568,20 @@ body {
     .educacao {
         padding: 120px 128px 100px 20px;
     }
+
+    .hobbie {
+        padding: 120px 120px 90px 20px;
+    }
 }
 
 @media (min-width: 1201px) {
 
     .sobre {
-        padding-right: 200px;
+        padding-right: 180px;
     }
 
     .div-menu {
-        margin-top: 165px;
+        margin-top: 120px;
     }
 
     .header {
@@ -565,6 +592,10 @@ body {
     }
 
     .educacao {
-        padding: 120px 200px 100px 20px;
+        padding: 100px 200px 80px 20px;
+    }
+
+    .hobbie {
+        padding: 150px 150px 100px 20px;
     }
 }
