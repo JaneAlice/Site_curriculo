@@ -53,14 +53,12 @@ function fecharMenu(){
 
 // Scroll do menu
 
-$(function() {
-	$(window).on("scroll", function() {
-		if($(window).scrollTop() > 40) {
-			$(".menu-fixed").addClass("menu-fixed-animado");
-		}else{
-			$(".menu-fixed").removeClass("menu-fixed-animado");
-		}
-	})
+$(window).on("scroll", function() {
+	if($(window).scrollTop() > 40) {
+		$(".menu-fixed").addClass("menu-fixed-animado");
+	}else{
+		$(".menu-fixed").removeClass("menu-fixed-animado");
+	}
 });
 
 // Scroll suave para links
@@ -74,3 +72,16 @@ $('.link-scroll').click(function (e){
 		scrollTop: targetOffset
 	}, 700);
 });
+
+//
+
+$('.titulo-sobre').fadeIn(500);
+    setTimeout(function(){
+        $('.endereco').fadeIn(1000);
+        setTimeout(function(){
+            $('.texto-sobre').fadeIn(1500);
+            setTimeout(function(){
+                $('.icone-redes-sociais').fadeIn(2000);
+            },500);
+        },500);
+    },500);
