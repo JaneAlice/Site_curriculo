@@ -2,6 +2,7 @@ body {
     font-family: 'Francois One', sans-serif;
 }
 
+
 .menu-lateral {
     background-color: #fa796b;
     height: 100vh;
@@ -52,7 +53,7 @@ body {
 }
 
 .titulo-1 {
-    font-size: 2.7em;
+    font-size: 2.4em;
     color: #404040;
     font-weight: bold;
     font-family: 'Francois One', sans-serif;
@@ -107,7 +108,7 @@ body {
 }
 
 .divisao {
-    border: 1px solid rgba(128, 128, 128, 0.377);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.596);
     width: 100%;
 }
 
@@ -213,10 +214,6 @@ body {
     font-size: 0.9em;
 }
 
-.hobbie {
-    padding: 150px 150px 100px 20px;
-}
-
 .icones-programaçao {
     font-size: 3.4em;
     color: #fa796b;
@@ -244,14 +241,18 @@ body {
     padding: 40px 20px 30px 20px;
 }
 
+.interesses {
+    padding: 130px 15px 110px 20px;
+}
+
 @media (max-width: 330px) {
+
     .menu-lateral {
         display: none !important;
     }
 
     .sobre {
-        padding-right: 9px;
-        padding-top: 30px;
+        padding: 30px 20px 0px 20px;
     }
 
     .redes-sociais {
@@ -317,13 +318,13 @@ body {
 }
 
 @media (max-width: 425px) and (min-width:  331px) {
+
     .menu-lateral {
         display: none !important;
     }
 
     .sobre {
-        padding-right: 9px;
-        padding-top: 30px;
+        padding: 30px 20px 0px 20px;
     }
 
     .redes-sociais {
@@ -389,13 +390,13 @@ body {
 }
 
 @media (max-width: 575px) and (min-width:  426px) {
+
     .menu-lateral {
         display: none !important;
     }
 
     .sobre {
-        padding-right: 9px;
-        padding-top: 40px;
+        padding: 40px 30px 0px 30px;
     }
 
     .redes-sociais {
@@ -444,7 +445,11 @@ body {
     }
 
     .educacao {
-        padding: 70px 15px 70px 20px;
+        padding: 70px 15px 70px 30px;
+    }
+
+    .habilidades {
+        padding: 40px 20px 30px 30px;
     }
 
     .data-educacao {
@@ -452,7 +457,11 @@ body {
     }
 
     .hobbie {
-        padding: 80px 15px 60px 20px;
+        padding: 80px 15px 60px 30px;
+    }
+
+    .interesses {
+        padding: 130px 15px 110px 30px;
     }
 
     .icones-programaçao {
@@ -461,13 +470,13 @@ body {
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
+
     .menu-lateral {
         display: none !important;
     }
 
     .sobre {
-        padding-right: 50px;
-        padding-top: 85px;
+        padding: 85px 50px 0px 30px;
     }
 
     .redes-sociais {
@@ -504,20 +513,20 @@ body {
         padding-top: 40px;
     }
 
-    .titulo-1 {
-        font-size: 2.4em;
-    }
-
     .educacao {
-        padding: 70px 80px 70px 20px;
+        padding: 70px 80px 70px 30px;
     }
 
     .hobbie {
-        padding: 110px 50px 70px 20px;
+        padding: 110px 50px 70px 30px;
     }
 
     .habilidades {
-        padding: 50px 20px 30px 20px;
+        padding: 50px 20px 30px 30px;
+    }
+
+    .interesses {
+        padding: 140px 50px 120px 30px;
     }
 }
 
@@ -561,14 +570,18 @@ body {
     }
     
     .habilidades {
-        padding: 60px 20px 40px 20px;
+        padding: 60px 20px 30px 20px;
+    }
+
+    .interesses {
+        padding: 150px 50px 140px 20px;
     }
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
     .sobre {
         padding-right: 100px;
-        padding-top: 105px;
+        padding-top: 100px;
     }
 
     .div-menu {
@@ -601,7 +614,7 @@ body {
     }
 
     .habilidades {
-        padding: 60px 20px 40px 20px;
+        padding: 60px 20px 30px 20px;
     }
 
     .icones-programaçao {
@@ -610,6 +623,10 @@ body {
 
     .titulo-2 {
         font-size: 1.4em !important;
+    }
+
+    .interesses {
+        padding: 160px 120px 150px 20px;
     }
 }
 
@@ -640,6 +657,10 @@ body {
 
     .habilidades {
         padding: 100px 20px 70px 20px;
+    }
+
+    .interesses {
+        padding: 190px 150px 180px 20px;
     }
 
     .titulo-2 {
